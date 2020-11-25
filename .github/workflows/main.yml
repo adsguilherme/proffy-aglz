@@ -19,7 +19,7 @@ jobs:
         with:
           working-directory: web
       - name: Component & API & UI Tests # Será executado todos os testes na mesma tarefa
-        uses: cypress-io/github-action@v2 # Esse comando executa os testes
+        uses: cypress-io/github-action@v2 # Esse comando executa os testes. Para gerenciar & executar os scripts de testes desenvolvidos com o Cypress.
         with:
           working-directory: web
           install: false
